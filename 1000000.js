@@ -1,5 +1,3 @@
-// Made by Suck a Cock!!!!!
-
 var choice = 0;
 var choicemade = false;
 
