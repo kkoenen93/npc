@@ -24,7 +24,7 @@ function action(mode, type, selection) { // begin je action functie (roept de ge
     }
 
 
-    // Hier kan je de tekst aanpassen blab lablabl
+    // Hier kan je de tekst aanpassen
     if (status == 0) { // als status 0 is geeft die de 1e tekst
         cm.sendSimple("Hello, Welcome to TroepieMS! My task here is to help you start your journey. Just to make sure, what job do you want? \r\n\
 #L1#Explorer\r\n\
