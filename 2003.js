@@ -16,7 +16,7 @@ function action(mode, type, selection) {
 	status--;
     }
 
-    
+   
     if (status == 0) {
 	cm.sendSimple(mainmenu);
     } else if (status == 1) {
