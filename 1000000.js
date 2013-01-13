@@ -61,7 +61,7 @@ function action(mode, type, selection) { // begin je action functie (roept de ge
           choice = 5;
         } else if (selection == 6){
           cm.changeJob(0);
-          cm.sendNext("Allright, You are now a temporary Beginner. As soon as you reach level 10, you can use the player command @advance to become a Dual Blade!\r\nFor now, i'll give you some items to start the tutorial island with. ");
+          cm.sendNext("Allright, You are now a temporary Beginner. As soon as you reach leve  l 10, you can use the player command @advance to become a Dual Blade!\r\nFor now, i'll give you some items to start the tutorial island with. ");
           choice = 6;
         } else if (selection == 7){
           cm.changeJob(3000);
