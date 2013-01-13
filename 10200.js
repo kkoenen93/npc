@@ -1,7 +1,7 @@
 /*
 	NPC Name: 		Athena Pierces
 	Map(s): 		Maple Road : Spilt road of choice
-	Description: 		Job tutorial, movie clip
+	Description: 		Job tutorial, movie clip sssssss
 */
 
 var status = -1;
