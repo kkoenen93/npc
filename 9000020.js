@@ -3,9 +3,8 @@
  * Creator: Aristocat 
  */ 
 
-
 var job = [ 
-[[100, "Warrior"], [200, "Magician"], [300, "Bowman"], [400, "Thief"], [500, "Pirate"]], 
+[[100, "Warrior"], [200, "Magician"], [300, "Bowman"], [400, "Thief"], [500, "Pirate"], [430, "Dual Blade"]], 
 [[1100, "Dawn Warrior"], [1200, "Blaze Wizard"], [1300, "Wind Archer"], [1400, "Night Walker"], [1500, "Thunder Breaker"]], 
 [[3200, "Battle Mage"], [3300, "Wild Hunter"], [3500, "Mechanic"], [3100, "Demon Slayer"], [508, "Jett"]], 
 [[110, "Fighter"], [120, "Page"], [130, "Spearman"]], 
@@ -32,7 +31,7 @@ function action(mode, type, selection) {
     } 
     if (status == 0) { 
         if (cm.getPlayer().getLevel() >= 10 && (cm.getPlayer().getJob() % 1000 == 0 || cm.getPlayer().getJob() == 501 || cm.getPlayer().getJob() == 507 || cm.getPlayer().getJob() == 3001 || cm.getPlayer().getJob() >= 2001 && cm.getPlayer().getJob() <= 2003) || cm.getPlayer().getLevel() >= 30 && (cm.getPlayer().getJob() % 1000 > 0 && cm.getPlayer().getJob() % 100 == 0 || cm.getPlayer().getJob() == 508) || cm.getPlayer().getLevel() >= 70 && cm.getPlayer().getJob() % 10 == 0 && cm.getPlayer().getJob() % 100 != 0 || cm.getPlayer().getLevel() >= 120 && cm.getPlayer().getJob() % 10 == 1 || cm.getPlayer().getLevel() >= 55 && cm.getPlayer().getJob() == 431) 
-            cm.sendYesNo("Hello there! My name is Spinel, and i am the job Advancer of TroepieMS. Would you like to job advance?"); 
+            cm.sendYesNo("Is seems that you have the ability to job advance.... Would you like to job advance?"); 
         else { 
             cm.sendOk("You are not the correct level to job advance, please come back later."); 
             cm.dispose(); 
@@ -107,11 +106,6 @@ function action(mode, type, selection) {
                 break; 
             case 2003: // Phantom Jr. 
                 cm.getPlayer().changeJob(2400); 
-                if (mode == 1){
-                    cm.sendNext("Suck my cock");
-                    cm.gainItem(1882);
-                }
-                 // Ja, het is eigenlijk hetzelfde als in PHP, Javascript ondersteund ook if else statements in Switches. oo 
                 cm.dispose(); 
                 break; 
             case 3001: // Demon Slayer 
