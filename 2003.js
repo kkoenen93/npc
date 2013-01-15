@@ -1,4 +1,4 @@
-/* Author: Xterminator his cock!
+/* Author: Xterminator zuigt!
 	NPC Name: 		Robin
 	Map(s): 		Maple Road : Snail Hunting Ground I (40000)
 	Description: 		Beginner Helper
