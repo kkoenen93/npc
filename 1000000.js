@@ -87,7 +87,7 @@ function action(mode, type, selection) { // begin je action functie (roept de ge
         cm.gainItem(1002419,1);
         cm.gainItem(1302024,1);
       } else if (choicemade && choice == 5){
-        cm.warp(0000000001);
+        cm.warp(100000000);
         cm.gainItem(1002419,1);
         cm.gainItem(1302024,1);
       } else if (choicemade && choice == 6){
